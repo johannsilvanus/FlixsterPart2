@@ -1,28 +1,32 @@
-# Project 1 - SimpleToDo
+# Flix
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-SimpleToDo is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+## Flix Part 1
 
-Submitted by: Johann Silvanus
+### User Stories
+`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
-Time spent: 6 hours spent in total
+#### REQUIRED (10pts)
+- [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 
-## User Stories
+#### BONUS
+- [x] (2pts) Views should be responsive for both landscape/portrait mode.
+   - [x] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
+   - [x] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
 
-The following **required** functionality is completed:
+- [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
-* [x] User can **view a list of todo items**
-* [x] User can **successfully add and remove items** from the todo list
-* [x] User's **list of items persisted** upon modification and and retrieved properly on app restart
+### App Walkthough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
+<img src="YOUR_GIF_URL_HERE" width=250><br>
 
-## Video Walkthrough
+### Notes
+Describe any challenges encountered while building the app.
 
-Here's a walkthrough of implemented user stories:
+### Open-source libraries used
 
-<img src='https://imgur.com/PG4JR2E.gif' title='Video Walkthrough' width='' alt='Adding Tasks' />
-<img src='https://imgur.com/7uCP8DW.gif' title='Video Walkthrough' width='' alt='Removing Tasks' />
-<img src='https://imgur.com/s06NB2T.gif' title='Video Walkthrough' width='' alt='Persistence' />
-
-## Notes
-
-I encountered some issues while implementing the Persist methods as it incorporated a good amount information regarding the app build gradle that I had to process and overcome.
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
