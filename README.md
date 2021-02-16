@@ -17,7 +17,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://imgur.com/PjLyr03.gif" width=250><br>
+<img src="https://imgur.com/SGa2Cvh.gif" width=250><br>
 
 ### Notes
 I had issues trying to parse some of the Json data because of editing errors on what getters were actually getting in ters of the "/" symbol in URLs.
