@@ -1,0 +1,4 @@
+com/example/flixster/BuildConfig.java
+ com.example.flixster.BuildConfig
+com/example/flixster/MainActivity.java
+ com.example.flixster.MainActivity
